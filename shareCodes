@@ -1,7 +1,1 @@
-echo "# updateTeam" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/gitWun/updateTeam.git
-git push -u origin main
+{"use":"jd_66df1356f9450","code":"g_eiitD1h9-a-PX-GytKiGrfw77E3iG0LpMlIb2JHcblbms_wkcTpm0gEOL8jv8B6lkllints8V2NFt33rVuPA","max":false};
