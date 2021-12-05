@@ -1,0 +1,1 @@
+{"code":200,"msg":"ok","data":{"sign":"body=%7B%22to%22%3A%20%22https%3A//m.jd.com%22%2C%20%22action%22%3A%20%22to%22%7D&uuid=c45becd9ed424c8198deb9a883db57ba&client=apple&clientVersion=9.4.0&st=1638712880000&sv=120&sign=dda1015d2140016cda547a834c90bba8"},"path":"GET /gentoken"}
