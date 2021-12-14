@@ -1,28 +1,8 @@
-X-Firefox-Spdy: h2
-alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
-cache-control: no-cache
-cf-cache-status: DYNAMIC
-cf-ray: 6bd88a6f18f27dcc-LAX
-content-encoding: br
-content-type: application/json; charset=utf-8
-date: Tue, 14 Dec 2021 15:42:12 GMT
-etag: W/"117-ncyQFW3W5MVdzCxVZoxEiUJGhMc"
-expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-report-to: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Gnw4w5cze9DAcLZOEKlYFMUkUxvgpv7Z%2FwBaWBiEMKZ6yr34%2BKMXa2lmeKw9xemXdz%2F39GcsOk%2BdctrCWJ5JyFtIdgGcgEePLet%2BXZgnBfw5Dd%2B2bhWg0x45a%2BOVfuQf"}],"group":"cf-nel","max_age":604800}
-server: cloudflare
-x-cache: MISS
-x-powered-by: Express
-
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
-Accept-Encoding: gzip, deflate, br
-Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
-Connection: keep-alive
-Host: api.jds.codes
-Sec-Fetch-Dest: document
-Sec-Fetch-Mode: navigate
-Sec-Fetch-Site: none
-Sec-Fetch-User: ?1
-TE: trailers
-Upgrade-Insecure-Requests: 1
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:94.0) Gecko/20100101 Firefox/94.0
+{
+  "code": 200,
+  "msg": "ok",
+  "data": {
+    "sign": "body=%7B%22to%22%3A%20%22https%3A//m.jd.com%22%2C%20%22action%22%3A%20%22to%22%7D&uuid=4086e68336354240b6626d5f434c6754&client=apple&clientVersion=9.4.0&st=1639496532000&sv=111&sign=b8d0f3abb6014d86a6d31ab82440dde4"
+  },
+  "path": "GET /gentoken"
+}
